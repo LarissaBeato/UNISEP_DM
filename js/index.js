@@ -4,6 +4,5 @@ function teste() {
 
 teste();
 
-
 var teste = 100;
 console.log(teste);
