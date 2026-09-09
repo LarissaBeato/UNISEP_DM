@@ -88,8 +88,7 @@ app.put("/atualizar", (request, response) => {
     data[indicePessoa].status = status;
 
     }
-
-    
+  
 });
 
 app.listen(8080, () => {
@@ -100,4 +99,3 @@ app.listen(8080, () => {
 // Status 200 -- sucesso
 // Status 400 -- não conseguiu encontrar informações
 // Status 300 -- validações
-
