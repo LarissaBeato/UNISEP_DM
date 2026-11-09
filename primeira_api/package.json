@@ -12,6 +12,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "expo": "^57.0.26",
     "express": "^5.2.1"
   }
 }

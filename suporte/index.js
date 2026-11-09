@@ -67,6 +67,7 @@ app.post("/cadastrar", async (req, res) => {
 });
 
 app.put("/atualizar", async (req, res) => {
+    
     const { id, cliente, problema, prioridade, status } = req.body;
 
     const chamado = await mysql("chamado")
@@ -90,5 +91,3 @@ app.delete("/deletar/:id", async (req, res) => {
     res.send(chamado);
 
 });
-
-
